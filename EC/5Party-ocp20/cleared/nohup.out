@@ -1,0 +1,242 @@
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-01-19 14:49:37,652 [    920]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle 
+2021-01-19 14:49:40,047 [   3315]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-01-19 14:49:40,049 [   3317]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-01-19 14:49:40,049 [   3317]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-01-19 14:49:40,049 [   3317]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-01-19 14:49:40,067 [   3335]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: IdeaVIM] 
+2021-01-19 14:49:40,067 [   3335]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: IdeaVIM] 
+2021-01-19 14:49:40,067 [   3335]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: IdeaVIM] 
+2021-01-19 14:49:40,148 [   3416]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-01-19 14:49:40,235 [   3503]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore] 
+2021-01-19 14:49:40,235 [   3503]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore] 
+2021-01-19 14:49:52,229 [  15497]   WARN -        #com.intellij.idea.Main - can't parse gsettings line: @a(ss) [] 
+2021-01-19 14:50:12,182 [  35450]   WARN - ystem.impl.ActionPopupMenuImpl - 2204ms to fill popup menu ProjectViewPopup 
+2021-01-19 14:50:12,271 [  35539]  ERROR - intellij.openapi.editor.Editor - Time for calculation of 'isIdeaVimDisabledHere' took 40 ms. 
+java.lang.Throwable: Time for calculation of 'isIdeaVimDisabledHere' took 40 ms.
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:143)
+	at com.maddyhome.idea.vim.helper.EditorHelperRt.isIdeaVimDisabledHere(EditorHelper.kt:49)
+	at com.maddyhome.idea.vim.listener.VimListenerManager$ComponentMouseListener.mousePressed(ListenerManager.kt:349)
+	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6651)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3345)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6419)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5029)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4861)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4544)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4861)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:778)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:751)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:749)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:748)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:971)
+	at com.intellij.ide.IdeEventQueue.dispatchMouseEvent(IdeEventQueue.java:906)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:838)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:744)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:451)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:505)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-01-19 14:50:12,272 [  35540]  ERROR - intellij.openapi.editor.Editor - PyCharm 2020.2.3  Build #PC-202.7660.27 
+2021-01-19 14:50:12,272 [  35540]  ERROR - intellij.openapi.editor.Editor - JDK: 11.0.8; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o. 
+2021-01-19 14:50:12,272 [  35540]  ERROR - intellij.openapi.editor.Editor - OS: Linux 
+2021-01-19 14:50:12,272 [  35540]  ERROR - intellij.openapi.editor.Editor - Plugin to blame: IdeaVim version: 0.60 
+2021-01-19 14:50:12,272 [  35540]  ERROR - intellij.openapi.editor.Editor - Last Action:  
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - Some skeletons failed to generate 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - PyQt5.QtMultimediaWidgets 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - astropy.convolution._convolve 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - llvmlite.binding.libllvmlite 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - scipy.optimize._lsap_ 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - tensorflow.compiler.tf2xla.ops._xla_ops 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - tensorflow.core.kernels.libtfkernel_sobol_op 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - tensorflow.lite.experimental.microfrontend.python.ops._audio_microfrontend_op 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libc10 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libc10_cuda 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libcaffe2_detectron_ops_gpu 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libcaffe2_module_test_dynamic 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libcaffe2_nvrtc 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libcaffe2_observers 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libshm 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libtorch 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libtorch_cpu 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libtorch_cuda 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libtorch_global_deps 
+2021-01-19 14:50:18,751 [  42019]   WARN - .skeletons.PySkeletonRefresher - torch.lib.libtorch_python 
+2021-01-19 23:00:08,780 [29432048]   WARN - n.process.BaseOSProcessHandler - Process hasn't generated any output for a long time.
+If it's a long-running mostly idle daemon process, consider overriding OSProcessHandler#readerOptions with 'BaseOutputReader.Options.forMostlySilentProcess()' to reduce CPU usage.
+Command line: /home/xiaoke/anaconda3/bin/python /home/xiaoke/PycharmProjects/MatplotlibDeamon/analysis_dblp_acm.py 
+java.lang.Throwable: Process creation:
+	at com.intellij.execution.process.BaseOSProcessHandler.<init>(BaseOSProcessHandler.java:31)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:47)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:37)
+	at com.intellij.execution.process.ColoredProcessHandler.<init>(ColoredProcessHandler.java:24)
+	at com.intellij.execution.process.KillableColoredProcessHandler.<init>(KillableColoredProcessHandler.java:29)
+	at com.jetbrains.python.run.PythonProcessHandler.<init>(PythonProcessHandler.java:20)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:23)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:28)
+	at com.jetbrains.python.run.PythonCommandLineState.doCreateProcess(PythonCommandLineState.java:288)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.doCreateProcess(PythonScriptCommandLineState.java:203)
+	at com.jetbrains.python.run.PythonCommandLineState.lambda$getDefaultPythonProcessStarter$0(PythonCommandLineState.java:238)
+	at com.jetbrains.python.run.PythonCommandLineState.startProcess(PythonCommandLineState.java:218)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:144)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.execute(PythonScriptCommandLineState.java:110)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:138)
+	at com.jetbrains.python.run.PythonRunner.doExecute(PythonRunner.java:43)
+	at com.jetbrains.python.run.PythonRunner.lambda$execute$0(PythonRunner.java:28)
+	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:64)
+	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:19)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:147)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:60)
+	at com.intellij.execution.impl.ExecutionManagerImpl$doStartRunProfile$startRunnable$1.run(ExecutionManagerImpl.kt:208)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:201)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:322)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:132)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:47)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:188)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:971)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:841)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:744)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:451)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:499)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-01-19 23:13:52,839 [30256107]   WARN - n.process.BaseOSProcessHandler - Process hasn't generated any output for a long time.
+If it's a long-running mostly idle daemon process, consider overriding OSProcessHandler#readerOptions with 'BaseOutputReader.Options.forMostlySilentProcess()' to reduce CPU usage.
+Command line: /home/xiaoke/anaconda3/bin/python /home/xiaoke/PycharmProjects/MatplotlibDeamon/analysis_dblp_acm.py 
+java.lang.Throwable: Process creation:
+	at com.intellij.execution.process.BaseOSProcessHandler.<init>(BaseOSProcessHandler.java:31)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:47)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:37)
+	at com.intellij.execution.process.ColoredProcessHandler.<init>(ColoredProcessHandler.java:24)
+	at com.intellij.execution.process.KillableColoredProcessHandler.<init>(KillableColoredProcessHandler.java:29)
+	at com.jetbrains.python.run.PythonProcessHandler.<init>(PythonProcessHandler.java:20)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:23)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:28)
+	at com.jetbrains.python.run.PythonCommandLineState.doCreateProcess(PythonCommandLineState.java:288)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.doCreateProcess(PythonScriptCommandLineState.java:203)
+	at com.jetbrains.python.run.PythonCommandLineState.lambda$getDefaultPythonProcessStarter$0(PythonCommandLineState.java:238)
+	at com.jetbrains.python.run.PythonCommandLineState.startProcess(PythonCommandLineState.java:218)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:144)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.execute(PythonScriptCommandLineState.java:110)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:138)
+	at com.jetbrains.python.run.PythonRunner.doExecute(PythonRunner.java:43)
+	at com.jetbrains.python.run.PythonRunner.lambda$execute$0(PythonRunner.java:28)
+	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:64)
+	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:19)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:147)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:60)
+	at com.intellij.execution.impl.ExecutionManagerImpl$doStartRunProfile$startRunnable$1.run(ExecutionManagerImpl.kt:208)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:201)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:322)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:132)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:47)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:188)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:971)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:841)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:744)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:451)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:499)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2021-01-21 13:59:30,766 [169794034]   WARN - n.process.BaseOSProcessHandler - Process hasn't generated any output for a long time.
+If it's a long-running mostly idle daemon process, consider overriding OSProcessHandler#readerOptions with 'BaseOutputReader.Options.forMostlySilentProcess()' to reduce CPU usage.
+Command line: /home/xiaoke/anaconda3/bin/python /home/xiaoke/PycharmProjects/MatplotlibDeamon/process_songs_.py 
+java.lang.Throwable: Process creation:
+	at com.intellij.execution.process.BaseOSProcessHandler.<init>(BaseOSProcessHandler.java:31)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:47)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:37)
+	at com.intellij.execution.process.ColoredProcessHandler.<init>(ColoredProcessHandler.java:24)
+	at com.intellij.execution.process.KillableColoredProcessHandler.<init>(KillableColoredProcessHandler.java:29)
+	at com.jetbrains.python.run.PythonProcessHandler.<init>(PythonProcessHandler.java:20)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:23)
+	at com.jetbrains.python.run.PythonProcessRunner.createProcess(PythonProcessRunner.java:28)
+	at com.jetbrains.python.run.PythonCommandLineState.doCreateProcess(PythonCommandLineState.java:288)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.doCreateProcess(PythonScriptCommandLineState.java:203)
+	at com.jetbrains.python.run.PythonCommandLineState.lambda$getDefaultPythonProcessStarter$0(PythonCommandLineState.java:238)
+	at com.jetbrains.python.run.PythonCommandLineState.startProcess(PythonCommandLineState.java:218)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:144)
+	at com.jetbrains.python.run.PythonScriptCommandLineState.execute(PythonScriptCommandLineState.java:110)
+	at com.jetbrains.python.run.PythonCommandLineState.execute(PythonCommandLineState.java:138)
+	at com.jetbrains.python.run.PythonRunner.doExecute(PythonRunner.java:43)
+	at com.jetbrains.python.run.PythonRunner.lambda$execute$0(PythonRunner.java:28)
+	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:64)
+	at com.intellij.execution.ExecutionManager$startRunProfile$1.invoke(ExecutionManager.kt:19)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:147)
+	at com.intellij.execution.impl.ExecutionManagerImpl$startRunProfile$1.invoke(ExecutionManagerImpl.kt:60)
+	at com.intellij.execution.impl.ExecutionManagerImpl$doStartRunProfile$startRunnable$1.run(ExecutionManagerImpl.kt:208)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:201)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$invokeLater$4(ApplicationImpl.java:322)
+	at com.intellij.openapi.application.impl.FlushQueue.doRun(FlushQueue.java:84)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:132)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:47)
+	at com.intellij.openapi.application.impl.FlushQueue$FlushNow.run(FlushQueue.java:188)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:971)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:841)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:744)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$9(IdeEventQueue.java:451)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:802)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:499)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
